@@ -26,7 +26,7 @@ JavaScript Fetch API- To make API calls
 
 Learning graph
 
-This was my first time building a React app that uses an external API. Here are some things I learned:
+This was my first time building a React app that uses an external API,Here are some things I learned:
 
 1. Using useState hook - To manage component state (loading, verse data, user input)
 2.Fetch API - How to make GET requests to an API
