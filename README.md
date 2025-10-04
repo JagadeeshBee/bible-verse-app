@@ -1,11 +1,11 @@
-# This is Bible Verse Reader App
+# This is a Bible Verse Reader App
 
-this is simple web App that'll publish random verses using the Bible.org API
+this is a simple web App that'll publish random verses using the Bible.org API
 Architecture - React & Vite following Chapter 9
 
 **Operations**
 Button click -- Random Verse -- random bible verse
-Lookup -- Search verse --
+Lookup -- Search verse Enter button click 
 the verses are displayed with references in textbook and chapter.
 
  Node.js has been installed 
