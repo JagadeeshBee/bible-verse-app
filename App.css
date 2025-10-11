@@ -1,0 +1,130 @@
+/* My Bible App Styles */
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* header section */
+.header {
+  background-color: #2196F3;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header p {
+  margin-top: 8px;
+}
+
+/* main content area with both boxes */
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+/* individual boxes for each feature */
+.box {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  min-width: 280px;
+}
+
+.box h2 {
+  color: #333;
+  margin-top: 0;
+  font-size: 1.4em;
+}
+
+/* buttons */
+button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1976D2;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* input field */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2196F3;
+}
+
+/* verse display area */
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #2196F3;
+  border-radius: 4px;
+}
+
+.text {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.reference {
+  color: #2196F3;
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* make it work on mobile */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
